@@ -7,7 +7,8 @@ import {ApolloProvider, ApolloClient, HttpLink, InMemoryCache } from "@apollo/cl
 const client = new ApolloClient({
   cache: new InMemoryCache(),
   link: new HttpLink({
-    uri: "https://graphql.org/swapi-graphql"
+    uri: "https://swapi-graphql-ramtoo.herokuapp.com/",
+    // uri: "https://swapi-graphql.netlify.com/.netlify/functions/index"
   })
 });
 
