@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import "./fonts/Starjedi.ttf";
 import App from "./App";
 import {ApolloProvider, ApolloClient, HttpLink, InMemoryCache } from "@apollo/client";
 
