@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/star-wars-search-using-react-graphql/static/css/main.d576947f.chunk.css",
+    "main.js": "/star-wars-search-using-react-graphql/static/js/main.5564a73b.chunk.js",
+    "main.js.map": "/star-wars-search-using-react-graphql/static/js/main.5564a73b.chunk.js.map",
+    "runtime-main.js": "/star-wars-search-using-react-graphql/static/js/runtime-main.71c28294.js",
+    "runtime-main.js.map": "/star-wars-search-using-react-graphql/static/js/runtime-main.71c28294.js.map",
+    "static/js/2.1cf4144e.chunk.js": "/star-wars-search-using-react-graphql/static/js/2.1cf4144e.chunk.js",
+    "static/js/2.1cf4144e.chunk.js.map": "/star-wars-search-using-react-graphql/static/js/2.1cf4144e.chunk.js.map",
+    "index.html": "/star-wars-search-using-react-graphql/index.html",
+    "precache-manifest.1b335256e98e1ead6b657ff39951c9b6.js": "/star-wars-search-using-react-graphql/precache-manifest.1b335256e98e1ead6b657ff39951c9b6.js",
+    "service-worker.js": "/star-wars-search-using-react-graphql/service-worker.js",
+    "static/css/main.d576947f.chunk.css.map": "/star-wars-search-using-react-graphql/static/css/main.d576947f.chunk.css.map",
+    "static/js/2.1cf4144e.chunk.js.LICENSE": "/star-wars-search-using-react-graphql/static/js/2.1cf4144e.chunk.js.LICENSE",
+    "static/media/Starjedi.ttf": "/star-wars-search-using-react-graphql/static/media/Starjedi.cc3019aa.ttf",
+    "static/media/index.css": "/star-wars-search-using-react-graphql/static/media/Starjhol.9c91297e.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71c28294.js",
+    "static/js/2.1cf4144e.chunk.js",
+    "static/css/main.d576947f.chunk.css",
+    "static/js/main.5564a73b.chunk.js"
+  ]
+}
