@@ -5,6 +5,7 @@ import People from "./components/People";
 import Planets from "./components/Planets";
 import Header from "./components/Header";
 import Display from "./components/Display";
+import StarLightButton from "./components/StarLightButton";
 
 // For you dhaval: vanilla fetch works with graphql, this is an example
 /* fetch("https://swapi-graphql-ramtoo.herokuapp.com/", {
@@ -27,26 +28,36 @@ import Display from "./components/Display";
   .then(res => res.json())
   .then(res => console.log(res.data)); */
 
-function App() {
+
+
+const App = () => {
+  const handleClick = () => {
+    console.log("handle click")
+  }
   return (
     <div>
-      <div>
-        <Header />
-      </div>
-      <div style={styles.menuStyles}>
-        <Movies styles={styles}/>
-        <Species styles={styles}/>
-        <People styles={styles}/>
-        <Planets styles={styles}/>
-      </div>
-      <div>
-        <Display />
+      <Header />
+      <div style={styles.mainScreenStyles}>
+        <div style={styles.menuStyles}>
+          <StarLightButton styles={styles} name="Movies" onClick={handleClick}/>
+          <StarLightButton styles={styles} name="Species"/>
+          <StarLightButton styles={styles} name="People"/>
+          <StarLightButton styles={styles} name="Planets"/>
+          <Movies styles={styles} />
+        </div>
+        <div>
+          <Display />
+        </div>
       </div>
     </div>
   );
 }
 
 const styles = {
+  mainScreenStyles: {
+    display: "flex",
+    flexDirection: "column"
+  },
   menuStyles: {
     display: "flex",
     justifyContent: "space-evenly",
@@ -57,19 +68,17 @@ const styles = {
   },
   defaultButtonStyle: {
     height: "50px",
-    width: "150px",
     background: "rgb(231, 236, 242)",
     color: "black",
     boxShadow: "0px 0px 36px 12px #277edd",
     borderRadius: "10px",
     border: "0px",
-    fontFamily: "starWarsJholFont",
+    fontFamily: "starWarsFont",
     fontSize: "24px",
     fontWeight: "bold"
   },
   onHoverButtonStyle: {
     height: "50px",
-    width: "150px",
     background: "rgb(253, 238, 231)",
     color: "black",
     boxShadow: "00px 0px 36px 12px #ef3125",

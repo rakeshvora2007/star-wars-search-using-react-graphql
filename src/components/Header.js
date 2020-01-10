@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div style={styles.headerStyle}>
+    <header style={styles.headerStyle}>
       <div style={styles.cropContainerStyle}>
         <img
           style={styles.imageStyle}
@@ -11,7 +11,7 @@ const Header = () => {
           border="0"
         />
       </div>
-    </div>
+    </header>
   );
 };
 
