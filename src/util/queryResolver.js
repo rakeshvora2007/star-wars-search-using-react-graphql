@@ -1,7 +1,8 @@
-import { useLazyQuery } from "@apollo/client";
 import * as query from "../queries";
+import React from "react";
+import { Movies, People, Planets, Species } from "../components/categories";
 
-const queryResolver = id => {
+export const queryResolver = id => {
   return id ? _querySelector(id) : null;
 };
 
@@ -11,28 +12,26 @@ const _querySelector = value => {
       return query.ALL_FILMS;
     case "people":
       return query.ALL_PEOPLE;
-    case "species":
-      return query.ALL_SPECIES;
     case "planets":
       return query.ALL_PLANETS;
+    case "species":
+      return query.ALL_SPECIES;
     default:
       return null;
   }
 };
 
-const _name = value => {
+export const typeResolver = (value, data) => {
   switch (value) {
-    case "all":
-      return query.ALL_FILMS;
+    case "movies":
+      return <Movies data={data} />;
     case "people":
-      return query.ALL_PEOPLE;
-    case "species":
-      return query.ALL_SPECIES;
+      return <People data={data} />;
     case "planets":
-      return query.ALL_PLANETS;
+      return <Planets data={data} />;
+    case "species":
+      return <Species data={data} />;
     default:
       return null;
   }
 };
-
-export default queryResolver;

@@ -1,17 +1,17 @@
 import React, {useState, useEffect} from "react";
 import { useLazyQuery } from "@apollo/client"
-import Movies from "./components/Movies";
 import Header from "./components/Header";
 import Display from "./components/Display";
 import StarLightButton from "./components/StarLightButton";
-import queryResolver from "./util/queryResolver";
+import {queryResolver} from "./util/queryResolver";
 
 const App = () => {
   const [query, setQuery] = useState(null);
   const [runQuery, {loading, error, data}] = useLazyQuery(query);
+  const [type, setType] = useState("movies");
 
   const handleClick = (id) => {
-    console.log(id)
+    setType(id);
     setQuery(queryResolver(id));
   }
 
@@ -19,7 +19,7 @@ const App = () => {
     if(query) {
       runQuery(query);
     }
-  }, [query])
+  }, [query, runQuery])
 
 
   return (
@@ -33,7 +33,7 @@ const App = () => {
           <StarLightButton name="Planets" onClick={handleClick} id="planets"/>
         </div>
         <div>
-          <Display loading={loading} error={error} data={data}/>
+          <Display loading={loading} error={error} data={data} type={type}/>
         </div>
       </div>
     </div>
