@@ -1,5 +1,6 @@
 import React from "react";
 import { typeResolver } from "../util/queryResolver";
+import Loading from "./Loading";
 
 const dataInteration = (data, type) => {
     console.log(data);
@@ -9,7 +10,7 @@ const dataInteration = (data, type) => {
 
 const Display = props => {
   if (props.error) return <div>Error: {props.error}</div>;
-  if (props.loading) return <div>loading...</div>;
+  if (props.loading) return <Loading />;
   if(props.data)  {
       return (
         <div style={{ color: "white", border: "1px solid pink" }}>
