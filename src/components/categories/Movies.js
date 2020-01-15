@@ -6,7 +6,7 @@ const Movies = ({ data }) => {
     <div>
       {data && data.allFilms &&
         data.allFilms.films.map((curr, idx) => (
-          <div key={curr.id}>
+          <div key={curr.id} style={styles.movieItem}>
             <p>
               {curr.title}: {curr.episodeID}
             </p>
@@ -14,6 +14,12 @@ const Movies = ({ data }) => {
         ))}
     </div>
   );
+};
+
+const styles = {
+  movieItem: {
+    border: "1px solid white"
+  }
 };
 
 export { Movies };
