@@ -13,7 +13,7 @@ const Display = props => {
   if (props.loading) return <Loading />;
   if(props.data)  {
       return (
-        <div style={{ color: "white", border: "1px solid pink" }}>
+        <div style={{ color: "white", border: "1px solid pink", display: "flex", flexWrap: "wrap" }}>
           {dataInteration(props.data, props.type)}
         </div>
       );
