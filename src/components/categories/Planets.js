@@ -5,12 +5,18 @@ const Planets = ({ data }) => {
     <>
       {data && data.allPlanets &&
         data.allPlanets.planets.map((curr, idx) => (
-          <div key={curr.id}>
+          <div key={curr.id} style={styles.menuItems}>
             <p>{curr.name}</p>
           </div>
         ))}
     </>
   );
 };
+
+const styles = {
+  menuItems: {
+    border: "1px solid grey"
+  }
+}
 
 export { Planets };
