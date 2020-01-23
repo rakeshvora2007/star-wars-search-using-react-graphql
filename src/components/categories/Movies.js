@@ -8,7 +8,7 @@ const Movies = ({ data }) => {
         data.allFilms.films.map((curr, idx) => (
           <div key={curr.id} style={styles.movieItem  }>
             <p>
-              {curr.title}: {curr.episodeID}
+              {curr.title}
             </p>
           </div>
         ))}
@@ -18,7 +18,13 @@ const Movies = ({ data }) => {
 
 const styles = {
   movieItem: {
-    border: "1px solid white",
+    border: "10px solid #552f7b",
+    padding: "10px",
+    margin: "10px",
+    fontSize: "24px",
+    fontFamily: "starWarsFont",
+    background: "rebeccapurple",
+    borderRadius: "10px"
   }
 };
 

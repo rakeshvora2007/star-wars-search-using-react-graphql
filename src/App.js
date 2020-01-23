@@ -32,9 +32,9 @@ const App = () => {
           <StarLightButton name="People" onClick={handleClick} id="people"/>
           <StarLightButton name="Planets" onClick={handleClick} id="planets"/>
         </div>
-        <div>
+        <>
           <Display loading={loading} error={error} data={data} type={type}/>
-        </div>
+        </>
       </div>
     </div>
   );
