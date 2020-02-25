@@ -13,7 +13,7 @@ const Display = props => {
   if (props.loading) return <Loading />;
   if(props.data)  {
       return (
-        <div style={{ color: "white", border: "1px solid pink", display: "flex", flexWrap: "wrap" }}>
+        <div style={styles.displayStyle}>
           {dataInteration(props.data, props.type)}
         </div>
       );
@@ -21,5 +21,14 @@ const Display = props => {
       return null;
   }
 };
+
+const styles = {
+  displayStyle: {
+    color: "white",
+    display: "flex", 
+    flexWrap: "wrap",
+    margin: "60px 50px"
+  }
+}
 
 export default Display;
