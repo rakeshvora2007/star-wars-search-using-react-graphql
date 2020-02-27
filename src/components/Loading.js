@@ -11,8 +11,9 @@ const Loading = () => {
 const styles = {
     loadingStyles: {
         color: "white",
-        fontSize: "60px",
-        margin: "300px auto"
+        fontSize: "96px",
+        margin: "300px auto",
+        fontFamily: "starWarsFont"
     }
 }
 
