@@ -15,11 +15,11 @@ const People = ({ data }) => {
 
 const styles = {
   menuItem: {
-    border: "10px solid #552f7b",
-    padding: "10px",
+    border: "10px solid #0c0b53",
+    padding: "10px 20px",
     margin: "10px",
     fontFamily: "starWarsFont",
-    background: "rebeccapurple",
+    background: "#161555",
     borderRadius: "10px"
   }
 }

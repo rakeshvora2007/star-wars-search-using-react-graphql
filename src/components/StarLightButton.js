@@ -48,7 +48,8 @@ const styles = {
     border: "0px",
     fontFamily: "starWarsJholFont",
     fontSize: "24px",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    cursor: "pointer"
   }
 }
 

@@ -18,13 +18,14 @@ const Movies = ({ data }) => {
 
 const styles = {
   movieItem: {
-    border: "10px solid #552f7b",
-    padding: "10px",
+    border: "10px solid #27c2ac",
+    padding: "10px 20px",
     margin: "10px",
     fontSize: "24px",
     fontFamily: "starWarsFont",
-    background: "rebeccapurple",
-    borderRadius: "10px"
+    background: "#45d2be",
+    borderRadius: "10px",
+    color: "black"
   }
 };
 

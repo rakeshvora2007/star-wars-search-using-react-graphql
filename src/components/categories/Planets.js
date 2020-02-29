@@ -16,7 +16,7 @@ const Planets = ({ data }) => {
 const styles = {
   menuItems: {
     border: "10px solid #552f7b",
-    padding: "10px",
+    padding: "10px 20px",
     margin: "10px",
     fontFamily: "starWarsFont",
     background: "rebeccapurple",

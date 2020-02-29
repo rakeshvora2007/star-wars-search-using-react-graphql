@@ -18,12 +18,13 @@ const Species = ({ data }) => {
 
 const styles = {
   menuItems: {
-    border: "10px solid #552f7b",
-    padding: "10px",
+    border: "10px solid #d1471c",
+    padding: "10px 20px",
     margin: "10px",
     fontFamily: "starWarsFont",
-    background: "rebeccapurple",
-    borderRadius: "10px"
+    background: "#FF5722",
+    borderRadius: "10px",
+    color: "black"
   }
 }
 

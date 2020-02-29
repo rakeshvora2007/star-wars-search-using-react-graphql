@@ -3,8 +3,6 @@ import { typeResolver } from "../util/queryResolver";
 import Loading from "./Loading";
 
 const dataInteration = (data, type) => {
-    console.log(data);
-    console.log(type);
   return data ? typeResolver(type, data) : null;
 };
 
