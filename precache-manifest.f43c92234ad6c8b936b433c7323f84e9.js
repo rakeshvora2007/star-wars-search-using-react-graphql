@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbfe806209dae9b96d1d435f47d15ede",
+    "revision": "867bcbfcbdb211e2b849e9077c50cae2",
     "url": "/star-wars-search-using-react-graphql/index.html"
   },
   {
-    "revision": "dcc82fddf411ed125ca0",
+    "revision": "bb5115907ff1c970ba68",
     "url": "/star-wars-search-using-react-graphql/static/css/main.d576947f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star-wars-search-using-react-graphql/static/js/2.4c1c3374.chunk.js.LICENSE"
   },
   {
-    "revision": "dcc82fddf411ed125ca0",
-    "url": "/star-wars-search-using-react-graphql/static/js/main.53190c4a.chunk.js"
+    "revision": "bb5115907ff1c970ba68",
+    "url": "/star-wars-search-using-react-graphql/static/js/main.191f0be9.chunk.js"
   },
   {
     "revision": "341d9dda2a45597f77f8",
