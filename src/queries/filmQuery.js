@@ -9,6 +9,9 @@ export const ALL_FILMS = gql`
         episodeID
         releaseDate
         created
+        openingCrawl
+        producers
+        director
       }
     }
   }
