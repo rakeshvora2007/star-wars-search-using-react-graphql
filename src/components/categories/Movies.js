@@ -4,9 +4,11 @@ const Movies = ({ data }) => {
   console.log(data);
   return (
     <>
-      {data && data.allFilms &&
+      {data &&
+        data.allFilms &&
         data.allFilms.films.map((curr, idx) => (
           <div key={curr.id} style={styles.movieItem}>
+<<<<<<< HEAD
             <div style={styles.titleStyle}>
               {curr.title}
             </div>
@@ -24,6 +26,17 @@ const Movies = ({ data }) => {
                 Producers:
               {curr.producers.map((producer, idx) => {
                   return <div key={idx}>{producer}</div>
+=======
+            <div style={styles.titleStyle}>{curr.title}</div>
+            <div>
+              <div>Episode ID: {curr.episodeID}</div>
+              <div>Release Date: {curr.releaseDate}</div>
+              <div>Director: {curr.director}</div>
+              <div style={styles.producerStyle}>
+                Producers:
+                {curr.producers.map((producer, idx) => {
+                  return <div key={idx}>{producer}</div>;
+>>>>>>> 9834f7ac6bbbf4f44bb38247054da18483a9a8c2
                 })}
               </div>
             </div>
@@ -46,6 +59,10 @@ const styles = {
     background: "#45d2be",
     borderRadius: "10px",
     color: "black"
+  },
+  producerStyle: {
+    border: "4px solid #5f75dd",
+    padding: "10px"
   }
 };
 
