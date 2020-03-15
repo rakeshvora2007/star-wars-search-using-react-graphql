@@ -22,7 +22,9 @@ const Movies = ({ data }) => {
                 Director: {curr.director}
               </div>
               <div>
+                <div style={styles.producerStyle}>
                 Producers:
+                </div>
               {curr.producers.map((producer, idx) => {
                   return <div key={idx}>{producer}</div>
                 })}
@@ -49,7 +51,8 @@ const styles = {
     color: "black"
   },
   producerStyle: {
-    border: "4px solid #5f75dd",
+    borderBottom: "4px solid #5f75dd",
+    display: "inline-block",
     padding: "10px"
   }
 };
