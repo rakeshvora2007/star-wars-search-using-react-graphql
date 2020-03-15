@@ -6,17 +6,26 @@ const Movies = ({ data }) => {
     <>
       {data && data.allFilms &&
         data.allFilms.films.map((curr, idx) => (
-          <div key={curr.id} style={styles.movieItem }>
+          <div key={curr.id} style={styles.movieItem}>
             <div style={styles.titleStyle}>
               {curr.title}
             </div>
             <div>
-              {curr.episodeID}
-              {curr.releaseDate}
-              {curr.director}
-              {curr.producers.map((producer,idx) => {
-                return <div key={idx}>{producer}</div>
-              })}
+              <div>
+                Episdoe ID: {curr.episodeID}
+              </div>
+              <div>
+                Release Date: {curr.releaseDate}
+              </div>
+              <div>
+                Director: {curr.director}
+              </div>
+              <div>
+                Producers:
+              {curr.producers.map((producer, idx) => {
+                  return <div key={idx}>{producer}</div>
+                })}
+              </div>
             </div>
           </div>
         ))}
