@@ -1,6 +1,7 @@
 import React from "react";
 
 const Species = ({ data }) => {
+  console.log(data);
   return (
     <>
       {data &&
@@ -8,7 +9,10 @@ const Species = ({ data }) => {
         data.allSpecies.species.map((curr, idx) => (
           <div key={curr.id} style={styles.menuItems}>
             <p>
-              {curr.name}: {curr.designation}
+              <div style={styles.headerStyles}>{curr.name}</div>
+              <div>Designation: {curr.designation}</div>
+              <div>Classification: {curr.classification}</div>
+              <div>Language: {curr.language}</div>
             </p>
           </div>
         ))}
@@ -25,6 +29,10 @@ const styles = {
     background: "#FF5722",
     borderRadius: "10px",
     color: "black"
+  },
+  headerStyles: {
+    fontSize: "24px",
+    borderBottom: "3px solid #c78455"
   }
 }
 
