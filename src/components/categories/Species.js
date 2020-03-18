@@ -56,7 +56,7 @@ const checkColorValidity = color => {
   return CSS_STYLE.color === color;
 };
 
-const eyeColorIdentifier = color => {
+const colorStyler = color => {
   return {
     ...styles.colorStyles,
     background: color
@@ -68,7 +68,7 @@ const eyeColorDisplay = colors => {
     ? "N/A"
     : colors.map((color, idx) => {
         return checkColorValidity(color) === true ? (
-          <div style={eyeColorIdentifier(color)} key={idx+color+Number.parseInt(Math.random()*10000000)}></div>
+          <div style={colorStyler(color)} key={idx+color+Number.parseInt(Math.random()*10000000)}></div>
         ) : null;
       });
 };

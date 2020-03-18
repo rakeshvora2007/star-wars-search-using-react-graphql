@@ -6,6 +6,11 @@ export const ALL_PEOPLE = gql`
     people {
       id
       name
+      eyeColor
+      hairColor
+      skinColor
+      height
+      gender
     }
   }
 }
