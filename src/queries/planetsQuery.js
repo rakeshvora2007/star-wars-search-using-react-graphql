@@ -6,6 +6,13 @@ export const ALL_PLANETS = gql`
       planets {
         id
         name
+        diameter
+        population
+        surfaceWater
+        rotationPeriod
+        climates
+        orbitalPeriod
+        terrains
       }
     }
   }
