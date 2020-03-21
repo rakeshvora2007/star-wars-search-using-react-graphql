@@ -37,7 +37,8 @@ const styles = {
     border: "0px",
     fontFamily: "starWarsFont",
     fontSize: "24px",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    outline: "none"
   },
   onHoverButtonStyle: {
     height: "50px",
@@ -49,7 +50,8 @@ const styles = {
     fontFamily: "starWarsJholFont",
     fontSize: "24px",
     fontWeight: "bold",
-    cursor: "pointer"
+    cursor: "pointer",
+    outline: "none"
   }
 }
 

@@ -13,14 +13,14 @@ const Planets = ({ data }) => {
             <div>Rotation Period: {curr.rotationPeriod}</div>
             <div>
               Climates: 
-              {curr.climates.map(climate => {
-                return <div>{climate}</div>
+              {curr.climates.map((climate, idx) => {
+                return <span key={idx}> {climate} | </span>
               })}
             </div>
             <div>
               Terrains: 
-              {curr.terrains.map(terrain => {
-                return <div>{terrain}</div>
+              {curr.terrains.map((terrain, idx) => {
+                return <span key={idx}>{terrain} | </span>
               })}
             </div>
           </div>
