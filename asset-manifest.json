@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/star-wars-search-using-react-graphql/static/css/main.d576947f.chunk.css",
-    "main.js": "/star-wars-search-using-react-graphql/static/js/main.191f0be9.chunk.js",
-    "main.js.map": "/star-wars-search-using-react-graphql/static/js/main.191f0be9.chunk.js.map",
+    "main.js": "/star-wars-search-using-react-graphql/static/js/main.e099cea8.chunk.js",
+    "main.js.map": "/star-wars-search-using-react-graphql/static/js/main.e099cea8.chunk.js.map",
     "runtime-main.js": "/star-wars-search-using-react-graphql/static/js/runtime-main.71c28294.js",
     "runtime-main.js.map": "/star-wars-search-using-react-graphql/static/js/runtime-main.71c28294.js.map",
-    "static/js/2.4c1c3374.chunk.js": "/star-wars-search-using-react-graphql/static/js/2.4c1c3374.chunk.js",
-    "static/js/2.4c1c3374.chunk.js.map": "/star-wars-search-using-react-graphql/static/js/2.4c1c3374.chunk.js.map",
+    "static/js/2.e7e2fbe0.chunk.js": "/star-wars-search-using-react-graphql/static/js/2.e7e2fbe0.chunk.js",
+    "static/js/2.e7e2fbe0.chunk.js.map": "/star-wars-search-using-react-graphql/static/js/2.e7e2fbe0.chunk.js.map",
     "index.html": "/star-wars-search-using-react-graphql/index.html",
-    "precache-manifest.f43c92234ad6c8b936b433c7323f84e9.js": "/star-wars-search-using-react-graphql/precache-manifest.f43c92234ad6c8b936b433c7323f84e9.js",
+    "precache-manifest.4610ef79d5150c916ff0d93855ff0760.js": "/star-wars-search-using-react-graphql/precache-manifest.4610ef79d5150c916ff0d93855ff0760.js",
     "service-worker.js": "/star-wars-search-using-react-graphql/service-worker.js",
     "static/css/main.d576947f.chunk.css.map": "/star-wars-search-using-react-graphql/static/css/main.d576947f.chunk.css.map",
-    "static/js/2.4c1c3374.chunk.js.LICENSE": "/star-wars-search-using-react-graphql/static/js/2.4c1c3374.chunk.js.LICENSE",
+    "static/js/2.e7e2fbe0.chunk.js.LICENSE": "/star-wars-search-using-react-graphql/static/js/2.e7e2fbe0.chunk.js.LICENSE",
     "static/media/Starjedi.ttf": "/star-wars-search-using-react-graphql/static/media/Starjedi.cc3019aa.ttf",
     "static/media/index.css": "/star-wars-search-using-react-graphql/static/media/Starjhol.9c91297e.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.71c28294.js",
-    "static/js/2.4c1c3374.chunk.js",
+    "static/js/2.e7e2fbe0.chunk.js",
     "static/css/main.d576947f.chunk.css",
-    "static/js/main.191f0be9.chunk.js"
+    "static/js/main.e099cea8.chunk.js"
   ]
 }
