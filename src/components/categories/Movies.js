@@ -29,6 +29,9 @@ const Movies = ({ data }) => {
                   return <div key={idx}>{producer}</div>
                 })}
               </div>
+              <div style={styles.openingCrawl}>
+                Opening Crawl: {curr.openingCrawl}
+              </div>
             </div>
           </div>
         ))}
@@ -48,12 +51,17 @@ const styles = {
     fontFamily: "starWarsFont",
     background: "#45d2be",
     borderRadius: "10px",
-    color: "black"
+    color: "black",
+    maxWidth: "380px",
   },
   producerStyle: {
     borderBottom: "4px solid #5f75dd",
     display: "inline-block",
     padding: "10px"
+  },
+  openingCrawl: {
+    fontSize: "12px",
+    padding: "5px"
   }
 };
 
