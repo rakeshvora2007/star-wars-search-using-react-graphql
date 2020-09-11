@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd3e97f42a37fdf9c57840c6b0d95d43",
+    "revision": "270fffbe9fb9fd88534ce331ac016da5",
     "url": "/star-wars-search-using-react-graphql/index.html"
   },
   {
-    "revision": "a9afcf526202f5a728e3",
-    "url": "/star-wars-search-using-react-graphql/static/css/main.09f4d2e0.chunk.css"
+    "revision": "1c848fb924c0d3427e18",
+    "url": "/star-wars-search-using-react-graphql/static/css/main.82b8b8de.chunk.css"
   },
   {
-    "revision": "9130ee21f032c100a5bd",
-    "url": "/star-wars-search-using-react-graphql/static/js/2.1c3a555b.chunk.js"
+    "revision": "2c74d1c466ee965c3685",
+    "url": "/star-wars-search-using-react-graphql/static/js/2.44a3ef73.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/star-wars-search-using-react-graphql/static/js/2.1c3a555b.chunk.js.LICENSE.txt"
+    "url": "/star-wars-search-using-react-graphql/static/js/2.44a3ef73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9afcf526202f5a728e3",
-    "url": "/star-wars-search-using-react-graphql/static/js/main.7b62891f.chunk.js"
+    "revision": "1c848fb924c0d3427e18",
+    "url": "/star-wars-search-using-react-graphql/static/js/main.8b637f55.chunk.js"
   },
   {
     "revision": "367d866c616cd78c725f",
